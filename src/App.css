@@ -1,3 +1,10 @@
+:root {
+	--baseColor: #f9cd96;
+	--mainText: #5764ad;
+	--secondaryBaseColor: #ffddb3;
+	--secondaryText: #6b76b3;
+}
+
 * {
 	box-sizing: border-box;
 	margin: 0;
@@ -11,13 +18,35 @@ h3 {
 }
 
 h4,
-h5,
-h6 {
-	font-family: utopia-std, serif;
-	font-weight: 700;
+h5 {
+	font-family: acumin-pro, sans-serif;
+	font-weight: 600;
 }
 
+h6,
 p {
-	font-family: utopia-std, serif;
+	font-family: acumin-pro, sans-serif;
 	font-weight: 400;
+}
+
+h1 {
+	font-size: 4rem;
+}
+h2 {
+	font-size: 3rem;
+}
+h3 {
+	font-size: 2rem;
+}
+h4 {
+	font-size: 1.75rem;
+}
+h5 {
+	font-size: 1.25rem;
+}
+h6 {
+	font-size: 1.125rem;
+}
+p {
+	font-size: 1em;
 }

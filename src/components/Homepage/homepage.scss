@@ -4,10 +4,16 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: flex-start;
-
-	.hero-into {
-	}
-
-	.hero-buttons {
+	background-color: var(--baseColor);
+	color: var(--mainText);
+	.hero-links {
+		ul {
+			display: flex;
+			flex-direction: row;
+			list-style-type: none;
+			li {
+				padding: 0.5em 1em;
+			}
+		}
 	}
 }

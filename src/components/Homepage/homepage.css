@@ -13,5 +13,22 @@
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+  background-color: var(--baseColor);
+  color: var(--mainText);
+}
+
+.hero .hero-links ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  list-style-type: none;
+}
+
+.hero .hero-links ul li {
+  padding: 0.5em 1em;
 }
 /*# sourceMappingURL=homepage.css.map */
