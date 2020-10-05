@@ -5,10 +5,25 @@
 	--secondaryText: #6b76b3;
 }
 
+/* nigth theme
+--baseColor: #292c36;
+	--mainText: #ed7868;
+	--secondaryBaseColor: #3d4663;
+	--secondaryText: #6b76b3; */
 * {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	color: var(--mainText);
 }
 
 h1,
@@ -49,4 +64,9 @@ h6 {
 }
 p {
 	font-size: 1em;
+}
+
+i {
+	color: var(--mainText);
+	font-size: 4rem;
 }

@@ -16,4 +16,31 @@
 			}
 		}
 	}
+	.brand {
+		content: "";
+		position: absolute;
+		top: 2%;
+		right: 5%;
+		width: 200px;
+		height: 200px;
+		transform-origin: center center;
+		background-image: url(../../assets/imgs/brandIdea.png);
+		background-repeat: no-repeat;
+		background-size: contain;
+		animation-name: rotateElement;
+		animation-duration: 5s;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
+		z-index: 3;
+	}
+
+	@keyframes rotateElement {
+		from {
+			transform: rotate(0);
+		}
+
+		to {
+			transform: rotate(360deg);
+		}
+	}
 }

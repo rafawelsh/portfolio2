@@ -31,4 +31,49 @@
 .hero .hero-links ul li {
   padding: 0.5em 1em;
 }
+
+.hero .brand {
+  content: "";
+  position: absolute;
+  top: 2%;
+  right: 5%;
+  width: 200px;
+  height: 200px;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+  background-image: url(../../assets/imgs/brandIdea.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  -webkit-animation-name: rotateElement;
+          animation-name: rotateElement;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  z-index: 3;
+}
+
+@-webkit-keyframes rotateElement {
+  from {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes rotateElement {
+  from {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
 /*# sourceMappingURL=homepage.css.map */

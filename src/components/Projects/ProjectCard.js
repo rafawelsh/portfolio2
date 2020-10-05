@@ -2,8 +2,8 @@ import React from "react";
 import styled from "styled-components";
 
 const StyledCard = styled.div`
-	height: 90vh;
-	width: 75vw;
+	height: 85vh;
+	width: 65vw;
 	background-color: var(--secondaryBaseColor);
 	margin: 0 1.5rem;
 	padding: 1.5rem;
