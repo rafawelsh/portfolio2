@@ -31,24 +31,27 @@ const StyledCard = styled.div`
 		}
 	}
 	// media queries for tablet portrait
-	@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+	@media only screen and (min-device-width: 551px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
 		height: 85vh;
 		width: 85vw;
+		align-items: center;
 		justify-content: center;
 		img {
 			width: 100%;
 		}
 	}
+	// media queries for mobile landscape
 	@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
 		height: 85vh;
 		width: 90vw;
+		align-items: center;
 		justify-content: center;
 		img {
 			width: 50%;
 		}
 	}
-	//media queries for phones portrait
-	@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+	//media queries for mobile portrait
+	@media only screen and (min-device-width: 320px) and (max-device-width: 550px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
 		height: 80vh;
 		width: 90vw;
 		justify-content: center;
