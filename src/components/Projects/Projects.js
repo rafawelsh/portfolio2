@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useRef } from "react";
-import "./Projects.css";
 import styled from "styled-components";
 
 // dynamically setting the height of the outermost container
@@ -16,7 +15,6 @@ const StickyContainer = styled.div`
 	position: sticky;
 	top: 0;
 	height: 100vh;
-	width: 100%;
 	overflow-x: hidden;
 `;
 
@@ -65,7 +63,7 @@ function Projects({ children }) {
 	}, []);
 
 	return (
-		<div>
+		<div className='projects'>
 			<TallContainer dynamicHeight={dynamicHeight} className='tallContainer'>
 				<StickyContainer ref={containerRef} className='stickyContainer'>
 					<HorizontalScroll

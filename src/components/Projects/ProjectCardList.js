@@ -31,7 +31,7 @@ function ProjectCardList() {
 			id: 2,
 			title: "👨🏽‍💻 FrontendMentior.io Designs",
 			description:
-				"FrontendMentor.io offers free design challenges for web designers to practice with. You are given the basic styles and an image to base your code with. This has been a great source to practice my HTML, CSS, and JS. You are free to use any techlonogy of your choosing.",
+				"FrontendMentor.io offers free design challenges for web designers to practice with. You are given the basic styles and an image to base your code with. This has been a great source to practice my HTML, CSS, JS, and other technologies.",
 			toolsUsed:
 				"HTML, CSS, JavaScript, React, Styled Components, SCSS, Netlify",
 			github: "https://github.com/rafawelsh/frontendMentorProjects",

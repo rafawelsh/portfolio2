@@ -1,14 +1,16 @@
 import React from "react";
-import "../../App.css";
+import "../App.css";
 import styled from "styled-components";
-import brandImg from "../../assets/imgs/brandIdea.png";
+import brandImg from "../assets/imgs/brandIdea.png";
 
 const StyledHome = styled.div`
 	height: 100vh;
+	width: 90%;
+	margin: 0 auto;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: flex-start;
+	align-content: center;
 	background-color: var(--baseColor);
 	color: var(--mainText);
 
@@ -56,8 +58,18 @@ function Homepage() {
 			<div className='brand'></div>
 			<div className='hero-intro'>
 				<h1>Rafael Castellanos-Welsh</h1>
-				<h2>Frontend Web Developer | Graphic Design</h2>
-				<h5>Current Project: Chingu Voyage 24</h5>
+				<h2>Frontend Web Developer | Graphic Designer</h2>
+				<h5>
+					Currently Working On:{" "}
+					<a
+						href='https://chingu.io/'
+						target='_blank'
+						rel='noopener noreferrer'
+						className='link'
+					>
+						Chingu Voyage 24
+					</a>
+				</h5>
 			</div>
 			<div className='hero-links'>
 				<ul>
