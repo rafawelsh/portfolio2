@@ -58,14 +58,14 @@ function About() {
 				<h6>
 					After receiving my Bachelor's of Business Administration from Gonzaga,
 					I attended the PDX Code Guild Bootcamp to make myself into a double
-					threat. Once I was in the program, I realized that web development was
-					what I wanted to pursue. I decided to pivot into web developement.
-					With that in mind, I started Caswel Marketing as a boutique marketing
-					agency for political campaigns in Oregon. I have worked with 3
-					district races and multiple smaller campaigns acroos Portland. In
-					April 2020, I embarked on Codecademy’s Web Development Career Path to
-					take the next step towards my dream of becoming a developer! I
-					finished their program in{" "}
+					threat. Once I was in the program, I realized that I wanted to pursue
+					a career in web development. With that in mind, I started Caswel
+					Marketing as a boutique marketing agency for political campaigns in
+					Oregon. Caswel has allowed me to develop CMS websites for clients
+					while also practice my marketing / graphic design skills. In April
+					2020, I embarked on Codecademy’s Web Development Career Path to take
+					the next step towards my dream of becoming a developer! I finished
+					their program in{" "}
 					<a
 						href='https://www.codecademy.com/profiles/rafawelsh/certificates/5b32457b646caa5007c30975'
 						target='_blank'
@@ -115,13 +115,15 @@ function About() {
 			<div className='personal-side'>
 				<h4>Me outside of code</h4>
 				<h6>
-					I am a coffee snob. I care about the details when I brew my coffee. If
-					I brew a cup of coffee for you, consider yourself a friend. I also
-					love jazz music. While at Gonzaga, I took a minor in Jazz Performance.
-					I have rediscovered the joy within books. I brew myself a nice single
-					origin coffee and read a good book. If you were to ask me what my
-					biggest accomplishment is, I would answer with completing my first
-					marathon last year.{" "}
+					I allow myself to invest time is any and all interests. I've always
+					believed in allowing yourself to grow in seemingly random avenues. I
+					have deep dived into the world of specialty coffee. From
+					differentiating between brewing methods to cupping coffee, I love
+					experiencing cofffee. Music has been prevelant since I picked up my
+					saxophone in middle school. With a minor is Jazz Performance, I can
+					comfortably say that I am ready to jam out. Lastly, if you were to ask
+					me what my biggest accomplishment is, I would answer with completing
+					my first marathon last year.{" "}
 				</h6>
 			</div>
 		</StyledAbout>

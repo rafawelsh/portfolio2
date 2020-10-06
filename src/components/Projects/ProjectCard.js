@@ -9,7 +9,7 @@ const StyledCard = styled.div`
 	padding: 1.5rem;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: flex-start;
 	div > * {
 		padding: 0.25em;
