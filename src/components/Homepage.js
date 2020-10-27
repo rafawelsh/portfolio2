@@ -52,7 +52,7 @@ function Homepage() {
 						Chingu Voyage 24*
 					</a>
 				</h4>
-				<p>* Chingu.io is an online program that groups developers to emulate a remote work experience where each team develops their own app withing a 'voyage' Each Voyage is 6 weeks long.</p>
+				<p>* Chingu.io is an online program that groups developers to emulate a remote work experience where each team develops their own app within a 'voyage'. Each Voyage is 6 weeks long.</p>
 			</div>
 			<div className='hero-links'>
 				<ul>

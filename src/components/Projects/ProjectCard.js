@@ -51,7 +51,8 @@ const StyledCard = styled.div`
 	}
 	// media queries for tablet portrait
 	@media only screen and (min-device-width: 551px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
-		height: 72vh;
+		height: 100%;
+		max-height: 72vh;
 		width: 85vw;
 		align-items: center;
 		justify-content: center;
