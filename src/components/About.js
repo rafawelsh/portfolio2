@@ -1,9 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import brandImg2 from "../assets/imgs/brandIdea.png";
 
 const StyledAbout = styled.div`
-	height: 100vh;
+	max-height: 100%;
 	width: 90%;
 	margin: 0 auto;
 	background-color: var(--baseColor);
@@ -17,6 +16,9 @@ const StyledAbout = styled.div`
 		width: 100%;
 		padding: 1rem 0;
 	}
+	.personal-side{
+		margin-bottom: 2rem;
+	}
 	ul {
 		display: flex;
 		flex-direction: row;
@@ -28,25 +30,31 @@ const StyledAbout = styled.div`
 		padding: 0.5em 1em;
 	}
 
-	.brand2 {
-		content: "";
-		position: absolute;
-		bottom: 2%;
-		left: 5%;
-		width: 150px;
-		height: 150px;
-		transform-origin: center center;
-		background-image: url(${brandImg2});
-		background-repeat: no-repeat;
-		background-size: contain;
-		animation-name: rotateElement;
-		animation-duration: 2s;
-		animation-iteration-count: infinite;
-		animation-timing-function: linear;
-	}
-	@media screen and (max-width: 700px) {
+	@media only screen and (max-width: 850px) {
 		height: 100%;
 	}
+	
+	// media queries for mobile landscape
+	@media only screen and (min-device-width: 320px) and (max-device-width: 720px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+		h2 {
+			font-size: 2em;
+		}
+		h6 {
+			font-size: 0.75em;
+		}
+		a {
+			font-size: 2em;
+		}
+	}
+	// @media only screen and (max-device-width: 850px) and (-webkit-min-device-pixel-ratio: 1) and (orientation: portrait) {
+	// 	height: 100vh;
+	// 	h2 {
+	// 		font-size: 2em;
+	// 	}
+	// 	h6 {
+	// 		font-size: 0.75em;
+	// 	}
+	// }
 `;
 
 function About() {
@@ -62,7 +70,7 @@ function About() {
 					a career in web development. With that in mind, I started Caswel
 					Marketing as a boutique marketing agency for political campaigns in
 					Oregon. Caswel has allowed me to develop CMS websites for clients
-					while also practice my marketing / graphic design skills. In April
+					while also practicing my marketing / graphic design skills. In April
 					2020, I embarked on Codecademy’s Web Development Career Path to take
 					the next step towards my dream of becoming a developer! I finished
 					their program in{" "}
@@ -115,15 +123,8 @@ function About() {
 			<div className='personal-side'>
 				<h4>Me outside of code</h4>
 				<h6>
-					I allow myself to invest time is any and all interests. I've always
-					believed in allowing yourself to grow in seemingly random avenues. I
-					have deep dived into the world of specialty coffee. From
-					differentiating between brewing methods to cupping coffee, I love
-					experiencing cofffee. Music has been prevelant since I picked up my
-					saxophone in middle school. With a minor is Jazz Performance, I can
-					comfortably say that I am ready to jam out. Lastly, if you were to ask
-					me what my biggest accomplishment is, I would answer with completing
-					my first marathon last year.{" "}
+				I've always believed in allowing yourself to grow in seemingly random avenues. I have deep dived into the world of specialty coffee. From differentiating between brewing methods to cupping coffee, I love experiencing coffee. Music has been prevalent since I picked up my saxophone in middle school. With a minor is Jazz Performance, I can comfortably say that I am ready to jam out. Lastly, if you were to ask me what my greatest achievement is, I would say running my first marathon last year.
+{" "}
 				</h6>
 			</div>
 		</StyledAbout>

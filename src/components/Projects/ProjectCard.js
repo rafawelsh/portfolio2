@@ -19,45 +19,75 @@ const StyledCard = styled.div`
 		color: var(--mainText);
 	}
 	img {
-		width: 70%;
+		max-width: 70%;
+	}
+	@media only screen and (max-width: 850px){
+		height: 500px;
+		width: 90vw;
+		justify-content: center;
+		align-items: center;
+		margin: 1rem;
+		padding: 1rem;
+		img {
+			width: 90%;
+		}
 	}
 	//media query for tablet landscape
-	@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+	@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
 		height: 80vh;
 		width: 80vw;
 		justify-content: center;
+		margin: 2em;
+		padding: 2em;
+		h3 {
+			font-size: 1.5em
+		}
+		h5, h6 {
+			font-size: 1em;
+		}
 		img {
 			width: 60%;
 		}
 	}
 	// media queries for tablet portrait
-	@media only screen and (min-device-width: 551px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
-		height: 85vh;
+	@media only screen and (min-device-width: 551px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+		height: 72vh;
 		width: 85vw;
 		align-items: center;
 		justify-content: center;
+		margin: 2em;
+		padding: 2em;
+		}
 		img {
 			width: 100%;
 		}
 	}
 	// media queries for mobile landscape
-	@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+	@media only screen and (min-device-width: 320px) and (max-device-width: 720px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
 		height: 85vh;
 		width: 90vw;
 		align-items: center;
 		justify-content: center;
+		margin: 2em;
+		padding: 2em;
+		h3 {
+			font-size: 1.25em
+		}
+		h5, h6 {
+			font-size: 1em;
+		}
 		img {
-			width: 50%;
+			width: 30%;
 		}
 	}
 	//media queries for mobile portrait
 	@media only screen and (min-device-width: 320px) and (max-device-width: 550px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-		height: 80vh;
+		height: 500px;
 		width: 90vw;
 		justify-content: center;
 		align-items: center;
-		margin: 0 1rem;
-		padding: 0 1rem;
+		margin: 1rem;
+		padding: 1rem;
 		img {
 			width: 90%;
 		}
