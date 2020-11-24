@@ -21,7 +21,7 @@ const StyledCard = styled.div`
 	img {
 		max-width: 70%;
 	}
-	@media only screen and (max-width: 850px){
+	@media only screen and (max-width: 850px) {
 		height: 500px;
 		width: 90vw;
 		justify-content: center;
@@ -40,9 +40,10 @@ const StyledCard = styled.div`
 		margin: 2em;
 		padding: 2em;
 		h3 {
-			font-size: 1.5em
+			font-size: 1.5em;
 		}
-		h5, h6 {
+		h5,
+		h6 {
 			font-size: 1em;
 		}
 		img {
@@ -58,7 +59,7 @@ const StyledCard = styled.div`
 		justify-content: center;
 		margin: 2em;
 		padding: 2em;
-		}
+
 		img {
 			width: 100%;
 		}
@@ -72,9 +73,10 @@ const StyledCard = styled.div`
 		margin: 2em;
 		padding: 2em;
 		h3 {
-			font-size: 1.25em
+			font-size: 1.25em;
 		}
-		h5, h6 {
+		h5,
+		h6 {
 			font-size: 1em;
 		}
 		img {
