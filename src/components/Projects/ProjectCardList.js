@@ -2,6 +2,7 @@ import React from "react";
 import ProjectCard from "./ProjectCard";
 import styled from "styled-components";
 import JournalAppVideo from "../../assets/videos/JournalAppVideo.gif";
+import BearCoffeeVideo from "../../assets/videos/BearCoffeeVideo.gif";
 import JammingVideo from "../../assets/videos/JammingVideo.gif";
 import CaswelMarketingImg from "../../assets/imgs/CaswelMarketingImg.jpg";
 import FrontendMentorImg from "../../assets/imgs/FrontendMentorImg.png";
@@ -34,17 +35,27 @@ function ProjectCardList() {
 		},
 		{
 			id: 2,
+			title: "☕️ Bear Coffee — Chingu Group Project",
+			description:
+				"Chingu.io is a program that groups developers to emulate a remote work experience where each team develops their own app within a 6 week period. I was the 'Designer' of the team. We designed a coffee ecommerce while learning new technologies.",
+			toolsUsed: "Svelte.js, Elder.js, Stripe, Figma, Github, Notion",
+			github: "https://github.com/chingu-voyages/v24-bears-team-05",
+			live: "https://bearcoffee.netlify.app/",
+			img: BearCoffeeVideo,
+		},
+		{
+			id: 3,
 			title: "📓 Journal App",
 			description:
-			"This journal app was part of my application for the Chingu program. They require applicants to showcase their skills before starting a 'voyage' with them. The app has CRUD functionality.",
+				"This journal app was part of my application for the Chingu program. They require applicants to showcase their skills before starting a 'voyage' with them. The app has CRUD functionality.",
 			toolsUsed:
-			"React.js, React-Semantic, React Hooks, Node.js, Expess.js, SQLite3, Heroku, Github",
+				"React.js, React-Semantic, React Hooks, Node.js, Expess.js, SQLite3, Heroku, Github",
 			github: "https://github.com/rafawelsh/Journal-App",
 			live: "https://protected-eyrie-07703.herokuapp.com/",
 			img: JournalAppVideo,
 		},
 		{
-			id: 3,
+			id: 4,
 			title: "👨🏽‍💻 FrontendMentior.io Designs",
 			description:
 				"FrontendMentor.io offers free design challenges for web designers to practice with. You are given the basic styles and an image to base your code with. This has been a great source to practice my HTML, CSS, JS, and other technologies.",
@@ -55,7 +66,7 @@ function ProjectCardList() {
 			img: FrontendMentorImg,
 		},
 		{
-			id: 4,
+			id: 5,
 			title: "🎧 Jamming — Spotify Playlist App",
 			description:
 				"This React app is using the Spotify API to allow users to log in to their Spotify account, create a new playlist, and save it to their account. The focus points of this project were interacting with APIs, React prop rendering, and deploying an app.",

@@ -22,17 +22,25 @@ const StyledHome = styled.div`
 		padding-left: 1em;
 	}
 
-	ul {
-		display: flex;
-		flex-direction: row;
-		list-style-type: none;
+	.working-on {
+		ul {
+			display: flex;
+			flex-direction: column;
+			list-style-type: none;
+		}
+	}
+
+	.hero-links {
+		ul {
+			display: flex;
+			flex-direction: row;
+			list-style-type: none;
+		}
 	}
 
 	li {
 		padding: 0em 1em;
 	}
-
-	
 `;
 
 function Homepage() {
@@ -41,18 +49,45 @@ function Homepage() {
 			<div className='hero-intro'>
 				<h1>Rafael Castellanos-Welsh</h1>
 				<h3>Frontend Web Developer | Graphic Designer</h3>
-				<h4>
-					Currently Working On:{" "}
-					<a
-						href='https://chingu.io/'
-						target='_blank'
-						rel='noopener noreferrer'
-						className='link'
-					>
-						Chingu Voyage 24*
-					</a>
+				<h4>Currently Working On:</h4>
+				<h4 className='working-on'>
+					<ul>
+						<li>
+							<a
+								href='https://scotch.io/'
+								target='_blank'
+								rel='noopener noreferrer'
+								className='link'
+							>
+								React Hooks
+							</a>
+						</li>
+						<li>
+							<a
+								href='https://www.freecodecamp.org/learn'
+								target='_blank'
+								rel='noopener noreferrer'
+								className='link'
+							>
+								API and Microservices Certification
+							</a>
+						</li>
+						<li>
+							<a
+								href='https://davidepstein.com/the-range/'
+								target='_blank'
+								rel='noopener noreferrer'
+								className='link'
+							>
+								Reading Range by Dave Epstein
+							</a>
+						</li>
+					</ul>
 				</h4>
-				<p>* Chingu.io is an online program that groups developers to emulate a remote work experience where each team develops their own app within a 'voyage'. Each Voyage is 6 weeks long.</p>
+				<p>
+					* I track all my projects with Notion. These topics are being spread
+					over the course of weeks in order to fully grasps the concepts.
+				</p>
 			</div>
 			<div className='hero-links'>
 				<ul>
