@@ -1,13 +1,14 @@
 import React from "react";
-import "./App.css";
 import Homepage from "./components/Homepage";
 import Projects from "./components/Projects/Projects";
 import ProjectCardList from "./components/Projects/ProjectCardList";
 import About from "./components/About";
+import GlobalStyles from "./styles/GlobalStyles";
 
 function App() {
 	return (
 		<div className='app'>
+			<GlobalStyles />
 			<Homepage />
 			<Projects>
 				<ProjectCardList />

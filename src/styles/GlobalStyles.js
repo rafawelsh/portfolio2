@@ -1,4 +1,26 @@
-:root {
+import { createGlobalStyle } from "styled-components";
+import BilderbergOTF from "../fonts/Bilderberg.otf";
+import BilderbergTTF from "../fonts/Bilderberg.ttf";
+export default createGlobalStyle`
+    @font-face {
+        font-family: 'Bilderberg';
+        src: url('${BilderbergTTF}') format("truetype"),
+        url('${BilderbergOTF}') format("opentype");
+        font-style: normal;
+    }
+
+    body {
+	margin: 0;
+	background-color: var(--baseColor);
+    }
+    h1,
+    h2,
+    h3 {
+      font-family: Bilderberg
+    }
+
+    //styles that need to be re-done and edited
+    :root {
 	--baseColor: #f9cd96;
 	--mainText: #5764ad;
 	--secondaryBaseColor: #ffddb3;
@@ -26,24 +48,6 @@ h5,
 h6,
 p {
 	color: var(--mainText);
-}
-
-h1,
-h2,
-h3 {
-	font-family: utopia-std-headline, serif;
-}
-
-h4,
-h5 {
-	font-family: acumin-pro, sans-serif;
-	font-weight: 600;
-}
-
-h6,
-p {
-	font-family: acumin-pro, sans-serif;
-	font-weight: 400;
 }
 
 h1 {
@@ -173,3 +177,5 @@ a.link:hover::after {
 		font-size: 2rem;
 	}
 }
+
+`;
